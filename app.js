@@ -6,7 +6,7 @@ function sortear() {
     let sorteados = [];
     let numero;
 
-    for (let i = 0; i < quantidade; i++) {
+    for (let i = 1; i < quantidade; i++) {
         numero = obterNumeroAleatorio(de, ate);
 
         while (sorteados.includes(numero)) {
